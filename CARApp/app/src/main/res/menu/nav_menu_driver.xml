@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_account"
+            android:icon="@drawable/baseline_person_black_24dp"
+            android:title="My Profile"/>
+        <item android:id="@+id/messages"
+            android:icon="@drawable/baseline_message_black_24dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_switch_to_rider"
+            android:icon="@drawable/baseline_person_black_24dp"
+            android:title="Switch To Rider" />
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/sign_out"
+            android:title="Log Out"/>
+    </group>
+
+
+</menu>

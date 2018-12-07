@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128.0"
+    android:viewportHeight="128.0">
+    <group android:name="bar">
+        <path
+            android:name="circle"
+            android:fillColor="#040404"
+            android:strokeWidth="1"
+            android:pathData="M44,20a20,20 0 1,0 40,0a20,20 0 1,0 -40,0"/>
+
+    </group>
+</vector>

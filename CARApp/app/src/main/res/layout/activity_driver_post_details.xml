@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="@+id/post_detours"
+        app:layout_constraintTop_toBottomOf="@+id/post_detours">
+
+        <Button
+            android:id="@+id/delete_ride_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#000000"
+            android:fontFamily="@font/work_sans"
+            android:text="CANCEL RIDE"
+            android:textColor="#e81717"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="50dp"
+            android:drawablePadding="20dp"
+            android:fontFamily="@font/work_sans"
+            android:text="20:00"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/delete_ride_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/work_sans"
+            android:text="November 26th"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/start_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="46dp"
+            android:drawableLeft="@drawable/material_circle"
+            android:drawablePadding="18sp"
+            android:drawableTint="@color/colorGrey"
+            android:fontFamily="@font/work_sans"
+            android:text="Starting Location"
+            android:textColor="#8cdee2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/post_detours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/material_more"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/colorGrey"
+            android:fontFamily="@font/work_sans"
+            android:textColor="@color/colorGrey"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/start_text_view" />
+
+        <TextView
+            android:id="@+id/end_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="68dp"
+            android:drawableLeft="@drawable/material_place"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/colorAccent"
+            android:fontFamily="@font/work_sans"
+            android:text="Destination"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/post_detours" />
+
+        <TextView
+            android:id="@+id/cost_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|left"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/curved_button_primarylight"
+            android:backgroundTint="#5bc948"
+            android:fontFamily="@font/work_sans"
+            android:padding="10dp"
+            android:text="$5"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/end_text_view"
+            app:layout_constraintVertical_bias="0.333" />
+
+        <TextView
+            android:id="@+id/seats_available_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="8dp"
+            android:text="Available seats: "
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.91"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/end_text_view"
+            app:layout_constraintVertical_bias="0.724" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ToggleButton
+        android:layout_marginTop="2dp"
+        android:id="@+id/button_show_accepted"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffffff"
+        android:icon="@drawable/ic_action_dropdown"
+        android:textOff="ACCEPTED RIDERS"
+        android:textOn="ACCEPTED RIDERS"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_action_dropdown" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/accepted_list"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"></android.support.v7.widget.RecyclerView>
+
+
+    <ToggleButton
+        android:id="@+id/button_show_requested"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffffff"
+        android:icon="@drawable/ic_action_dropdown"
+        android:textOn="RIDE REQUESTS"
+        android:textOff="RIDE REQUESTS"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_action_dropdown" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/request_list"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ListView
+        android:id="@+id/detour_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detours: ">
+
+    </ListView>
+
+</LinearLayout>
