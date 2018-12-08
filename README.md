@@ -36,7 +36,7 @@ Installation Instruction:
 
    Way 2: Using Android studio emulator:
       
-      1. Navigate to https://github.com/joshydotpoo/CAR from a computer with Android studio installed
+      1. Navigate to https://github.com/toankbui/CAR-RELEASE from a computer with Android studio installed
       
       2. Clone the repository
       
