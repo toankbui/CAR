@@ -30,7 +30,7 @@ Installation Instruction:
    
       1. Navigate to https://github.com/toankbui/CAR-RELEASE/releases from the phone
       
-      2. Download app-debug.apk under CAR PRE-RELEASE (v1.0.1)
+      2. Download app-debug.apk under CAR PRE-RELEASE
       
       3. Launch the app
 
