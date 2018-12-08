@@ -28,7 +28,7 @@ Installation Instruction:
 
    Way 1: Using Android devices:
    
-      1. Navigate to https://github.com/joshydotpoo/CAR/releases from the phone
+      1. Navigate to https://github.com/toankbui/CAR-RELEASE/releases from the phone
       
       2. Download app-debug.apk under CAR PRE-RELEASE (v1.0.1)
       
