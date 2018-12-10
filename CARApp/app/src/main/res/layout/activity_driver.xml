@@ -14,14 +14,16 @@
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/add_post"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_gravity="bottom|end"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:clickable="true"
             android:elevation="20dp"
+            android:focusable="true"
             app:backgroundTint="@android:color/holo_orange_dark"
+            app:elevation="20dp"
             app:srcCompat="@drawable/baseline_add_black_24dp"
             tools:layout_editor_absoluteX="295dp"
             tools:layout_editor_absoluteY="0dp" />
