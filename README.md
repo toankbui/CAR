@@ -1,6 +1,6 @@
 # CAR | Pre-release
 Catch A Ride | A long-distance ride-share solution for UCSD students.
-Created by team CAR in 2018
+Developed by team CAR in 2018
 
 Introduction: 
 Owning a car while attending UC San Diego is a luxury that many students are unable to enjoy. However, one thing that all students do enjoy is having the ability to visit home or some places outside of La Jolla that have significance to them. The only issue is that without a car, the cost of doing so is quite unappealing and often deters students from going where they want to go. Catch a Ride (CAR) is a phone application designed by students, for students, with the motivation to simplify commuting to and from UC San Diego, all at a significantly cheaper cost compared to Uber, public transit, and plane rides. CAR’s vision is to allow students that do own a car to have the ability to assist those that do not, in a mutually beneficial way that promotes a sense of community within the university.
